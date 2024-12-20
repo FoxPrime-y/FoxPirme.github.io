@@ -4,17 +4,19 @@ import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   bundler: viteBundler(),
-  theme: defaultTheme({
-     nav: [
-            { text: '首页', link: '/' },
-            { text: '我的洛谷练习题', link: '/luogu/' },
-          ],
-          sidebar:{
-            '/blog/' :[
+  theme: defaultTheme(
+  //   {
+  //    nav: [
+  //           { text: '首页', link: '/' },
+  //           { text: '我的洛谷练习题', link: '/luogu/' },
+  //         ],
+  //         sidebar:{
+  //           '/blog/' :[
 
-            ]
-          }
-  }),
+  //           ]
+  //         }
+  // }
+),
 })
 // module.exports={
 //   title:"FoxPrime的博客",
