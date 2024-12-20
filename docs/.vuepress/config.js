@@ -3,19 +3,20 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
+  // base: "/FoxPrime.github.io",
   bundler: viteBundler(),
   theme: defaultTheme(
-  //   {
-  //    nav: [
-  //           { text: '首页', link: '/' },
-  //           { text: '我的洛谷练习题', link: '/luogu/' },
-  //         ],
-  //         sidebar:{
-  //           '/blog/' :[
+    {
+     nav: [
+            { text: '首页', link: '/' },
+            { text: '我的洛谷练习题', link: '/luogu/' },
+          ],
+          sidebar:{
+            '/blog/' :[
 
-  //           ]
-  //         }
-  // }
+            ]
+          }
+  }
 ),
 })
 // module.exports={
